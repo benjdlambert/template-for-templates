@@ -52,7 +52,6 @@ spec:
         url: ./skeleton
         copyWithoutRender:
           - .github/workflows/*
-          - ./catalog-info.yaml
           - ./skeleton/*
         values:
           component_id: "${{ parameters.component_id }}"
